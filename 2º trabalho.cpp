@@ -59,7 +59,7 @@ int main()
         }
     }
     k = 0;
-/// Transformação de matriz em identidade! Qual o proposito de fazer isso?
+/// TransformaÃ§Ã£o de matriz em identidade! Qual o proposito de fazer isso?
     for(i = 0; i < l; i++)
     {
         if(A[i][i] = 0)
@@ -104,50 +104,7 @@ int main()
             }
         }
     }
-/// Vamos começar o calculo da matriz L:
-    for(i = 0; i < l; i++)
-    {/*
-        if(A[i][i] = 0)
-        {
-            do
-            {
-                if(A[i+k][i] != 0)
-                {
-                    for(j = 0; j < l; j++)
-                    {
-                        Vetor_aux[j] = A[i][j];
-                        A[i][j] = A[i+k][j];
-                        A[i+k][j] = /Vetor_aux[j];
-                    }
-                }
-                else
-                    k++;
-            }while(A[i][i] = 0 || k > l);
-            if(A[i][i] = 0)
-            {
-                printf("Nao foi possivel escalonar esta matriz.");
-                exit(0);
-
-            }
-        }
-        if(A[i][i] != 1)
-        {
-            m = A[i][i];
-            for(j = 0; j < l; j++)
-                A[i][j] = A[i][j]/m;
-        }
-        for(k = 0; k < l; k++)
-        {
-            if(k != i)
-            {
-                if(A[k][i] != 0)
-                {
-                    m = A[k][i];
-                    for(j = 0; j < l; j++)
-                        A[k][j] = A[k][j] - m * A[i][j];
-                }
-            }
-        }
-    }*/
+/// Vamos comeÃ§ar o calculo da matriz L:
+    
 return 0;
 }
